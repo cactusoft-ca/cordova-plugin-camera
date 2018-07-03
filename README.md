@@ -21,11 +21,7 @@ description: Take pictures with the device camera.
 #         under the License.
 -->
 
-|AppVeyor|Travis CI|
-|:-:|:-:|
-|[![Build status](https://ci.appveyor.com/api/projects/status/github/apache/cordova-plugin-camera?branch=master)](https://ci.appveyor.com/project/ApacheSoftwareFoundation/cordova-plugin-camera)|[![Build Status](https://travis-ci.org/apache/cordova-plugin-camera.svg?branch=master)](https://travis-ci.org/apache/cordova-plugin-camera)|
-
-# cordova-plugin-camera
+# @cactusoft/cordova-plugin-camera
 
 This plugin defines a global `navigator.camera` object, which provides an API for taking pictures and for choosing images from
 the system's image library.
@@ -42,13 +38,13 @@ Although the object is attached to the global scoped `navigator`, it is not avai
 
 This requires cordova 5.0+
 
-    cordova plugin add cordova-plugin-camera
+    cordova plugin add @cactusoft/cordova-plugin-camera
 Older versions of cordova can still install via the __deprecated__ id
 
     cordova plugin add org.apache.cordova.camera
 It is also possible to install via repo url directly ( unstable )
 
-    cordova plugin add https://github.com/apache/cordova-plugin-camera.git
+    cordova plugin add https://github.com/cactusoft-ca/cordova-plugin-camera.git
 
 
 ## How to Contribute
